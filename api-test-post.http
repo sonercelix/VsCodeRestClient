@@ -1,0 +1,8 @@
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "Servis islemleri",
+  "body": "Rest Client kullanarak VsCode uzerinden servis cagrisi",
+  "userId": 1
+}

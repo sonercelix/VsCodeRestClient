@@ -1,0 +1,14 @@
+@baseUrl = https://jsonplaceholder.typicode.com
+
+### Get Post
+GET {{baseUrl}}/posts/1
+
+### Create New Post
+POST {{baseUrl}}/posts
+Content-Type: application/json
+
+{
+  "title": "Servis islemleri",
+  "body": "Rest Client kullanarak VsCode uzerinden servis cagrisi",
+  "userId": 1
+}
